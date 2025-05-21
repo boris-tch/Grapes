@@ -1,0 +1,38 @@
+import React from 'react';
+import logo from './greengrape.png';
+import './App.css';
+import SocketTester from './sockettester';
+import Chat from './chat';
+
+
+function App() {
+  return <Chat />;
+}
+/*
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Nothing here yet
+        </p>
+        <h1>Welcome to the GrapeVine</h1>
+        <a
+          className="App-link"
+          href="https://www.youtube.com/@bmtclips"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sub to my youtube
+        </a>
+        <div>
+          <SocketTester />
+          <Chat />
+        </div>
+      </header>
+    </div>
+  );
+}
+*/
+export default App;
