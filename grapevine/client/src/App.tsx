@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import './chat.css';
 import logo from './greengrape.png';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://grapes123123123123.onrender.com/');
 
 socket.on("connect", () => {
   console.log("✅ Connected to server with ID:", socket.id);
